@@ -1,3 +1,7 @@
+.banner {
+    height: 220px;
+}
+
 .section {
     height: calc(100vh - 220px);
     padding: 10px;
