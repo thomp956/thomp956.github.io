@@ -1,3 +1,7 @@
+body{
+    font-size: 1.1em;
+}
+
 .section {
     height: calc(100vh - 220px);
     padding: 10px;
