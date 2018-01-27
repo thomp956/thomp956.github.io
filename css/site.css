@@ -1,20 +1,37 @@
-.banner {
-    height: 220px;
+body{
+    background-color: #ECF3FF;
+    color: #7F9ECC;
 }
 
-.section {
-    height: calc(100vh - 220px);
-    padding: 10px;
-}
-
-.section-top {
-    margin-top: 220px;
+nav.banner {
+    background-color: #7F9ECC;
     
 }
 
+.anchor{
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+nav.banner > a >  span{
+    color: #ECF3FF;
+}
+
+.content{
+    margin-top: 60px;
+}
+
+.section {
+    height: calc(100vh - 60px);
+    padding: 10px 0 10px 0;
+}
+
 .section-body{
-    padding: 0 25px 0 25px;
-    background-color: lightgray;
+    padding: 25px;
+    background-color: #A2B9E5;
+    color: #ECF3FF;
     border: 1px solid gray;
     border-radius: 5px;
     height: 100%;
@@ -26,5 +43,12 @@
 
 .profile-picture{
     border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+footer{
+    text-align: center;
+    padding: 25px;
 }
 

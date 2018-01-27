@@ -10,8 +10,8 @@
     <body>
         <nav class="banner">
                 <a href="#" class="brand">
-                  <img class="profile-picture" src="content/profile-picture.jpg" />
-                  <h4>Daniel Thompson</h4>
+                  <img class="profile-picture" src="content/profile-picture-small.jpg" />
+                  <span>Daniel Thompson</span>
                 </a>
               
                 <!-- responsive-->
@@ -19,19 +19,27 @@
                 <label for="bmenub" class="burger button">&#8801;</label>
               
                 <div class="menu">
-                  <a href="#" class="button">Background</a>
-                  <a href="#" class="button">Projects</a>
+                  <a href="#background" class="button">Background</a>
+                  <a href="#projects" class="button">Projects</a>
                   <a href="#" class="button">Blog</a>
                   <a href="#contact" class="button">Contact</a>
                 </div>
         </nav>
         <div class="content flex center">
             <div class="full three-fifth-800">
-                <div class="section section-top">
+                <div id="background" class="anchor"></div>
+                <div class="section">
                     <div class="section-body">
                             <h2 class="section-title">Application Developer at General Mills</h2>
                     </div>
                 </div>
+                <div id="projects" class="anchor"></div>
+                <div class="section">
+                    <div class="section-body">
+                            <h2 class="section-title">Projects</h2>
+                    </div>
+                </div>
+                <div id="contact" class="anchor"></div>
                 <div class="section" id="contact">
                     <div class="section-body">
                             <h2 class="section-title">Contact</h2>
@@ -47,6 +55,9 @@
                 </div>    
             </div>
         </div>
+        <footer>
+            Daniel Thompson &copy; 2018
+        </footer>
               
     </body>
 </html>
