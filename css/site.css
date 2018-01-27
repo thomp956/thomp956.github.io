@@ -1,0 +1,30 @@
+.banner {
+    height: 220px;
+}
+
+.section {
+    height: calc(100vh - 220px);
+    padding: 10px;
+}
+
+.section-top {
+    margin-top: 220px;
+    
+}
+
+.section-body{
+    padding: 0 25px 0 25px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.profile-picture{
+    border-radius: 50%;
+}
+

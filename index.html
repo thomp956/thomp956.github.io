@@ -1,9 +1,51 @@
 <html>
     <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
         <title>Daniel Thompson</title>
+        <link href="https://unpkg.com/picnic/picnic.min.css" rel="stylesheet">
+        <link href="css/site.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>Hello World</h1>
-        <p>Welcome to my website</p>
+        <nav class="banner">
+                <a href="#" class="brand">
+                  <img class="profile-picture" src="content/profile-picture.jpg" />
+                  <h4>Daniel Thompson</h4>
+                </a>
+              
+                <!-- responsive-->
+                <input id="bmenub" type="checkbox" class="show">
+                <label for="bmenub" class="burger button">Menu</label>
+              
+                <div class="menu">
+                  <a href="#" class="button">Background</a>
+                  <a href="#" class="button">Projects</a>
+                  <a href="#" class="button">Blog</a>
+                  <a href="#contact" class="button">Contact</a>
+                </div>
+        </nav>
+        <div class="content flex center">
+            <div class="full three-fifth-800">
+                <div class="section section-top">
+                    <div class="section-body">
+                            <h2 class="section-title">Application Developer at General Mills</h2>
+                    </div>
+                </div>
+                <div class="section" id="contact">
+                    <div class="section-body">
+                            <h2 class="section-title">Contact</h2>
+                            <table align="center" class="primary">
+                                <tbody>
+                                    <tr>
+                                    <td>Email</td>
+                                    <td>dthomp92@gmail.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>                                  
+                    </div>
+                </div>    
+            </div>
+        </div>
+              
     </body>
 </html>
