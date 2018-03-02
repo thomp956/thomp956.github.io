@@ -166,3 +166,4 @@ plugins_dir:
   - jekyll-feed
   - jekyll-assets
   - jekyll-minifier
+theme: jekyll-theme-slate
